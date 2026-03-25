@@ -111,6 +111,10 @@ This repository represents a completed multi-platform endpoint hardening project
 - practical security decisions based on system use case
 - a repeatable assessment and hardening workflow
 
+## Privacy Note
+
+Some raw evidence files and environment-specific details were redacted or omitted in the public version of this repository to avoid exposing personal device, network, or account information. The public repo is intended to show the project methodology, hardening approach, and validation process without publishing unnecessary machine-specific data.
+
 ## Status
 
 - Linux phase: Complete
