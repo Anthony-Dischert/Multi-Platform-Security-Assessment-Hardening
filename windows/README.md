@@ -18,7 +18,7 @@ Because this is a personal machine, some aggressive enterprise-style controls we
 ## Project Structure
 
 - `baseline/` — pre-hardening system state and evidence
-- `hardening/` — transcript of hardening actions performed
+- `hardening/` — transcript of hardening actions performed (Ommitted *See Privacy Notes*)
 - `validation/` — post-hardening verification evidence
 
 ## Baseline Collection
