@@ -1,0 +1,8 @@
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.2G  2.3M  3.2G   1% /run
+efivarfs        192K   79K  109K  42% /sys/firmware/efi/efivars
+/dev/sda2       916G  197G  673G  23% /
+tmpfs            16G   16M   16G   1% /dev/shm
+tmpfs           5.0M   28K  5.0M   1% /run/lock
+/dev/sda1       511M  6.2M  505M   2% /boot/efi
+tmpfs           3.2G  2.7M  3.2G   1% /run/user/1000

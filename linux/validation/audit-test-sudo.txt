@@ -1,0 +1,40 @@
+----
+time->Mon Mar 23 22:17:59 2026
+type=PROCTITLE msg=audit(1774322279.457:277): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=PATH msg=audit(1774322279.457:277): item=0 name="/usr/bin/" inode=11796482 dev=08:02 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1774322279.457:277): cwd="/"
+type=SOCKADDR msg=audit(1774322279.457:277): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1774322279.457:277): arch=c000003e syscall=44 success=yes exit=1080 a0=3 a1=7fff4aa76f70 a2=438 a3=0 items=1 ppid=1829520 pid=1829534 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1774322279.457:277): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="sudo_usage" list=4 res=1
+----
+time->Mon Mar 23 22:18:03 2026
+type=PROCTITLE msg=audit(1774322283.088:281): proctitle=7375646F00617564697463746C002D6C
+type=PATH msg=audit(1774322283.088:281): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=11800659 dev=08:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1774322283.088:281): item=0 name="/usr/bin/sudo" inode=11801097 dev=08:02 mode=0104755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1774322283.088:281): cwd="[REDACTED_PATH]"
+type=EXECVE msg=audit(1774322283.088:281): argc=3 a0="sudo" a1="auditctl" a2="-l"
+type=SYSCALL msg=audit(1774322283.088:281): arch=c000003e syscall=59 success=yes exit=0 a0=5d7e7688ede0 a1=5d7e7688ea60 a2=5d7e7686ff70 a3=5d7e7688e940 items=2 ppid=1549260 pid=1829699 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=1 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="sudo_usage"
+----
+time->Mon Mar 23 22:18:23 2026
+type=PROCTITLE msg=audit(1774322303.867:288): proctitle=7375646F006C73002F726F6F74
+type=PATH msg=audit(1774322303.867:288): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=11800659 dev=08:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1774322303.867:288): item=0 name="/usr/bin/sudo" inode=11801097 dev=08:02 mode=0104755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1774322303.867:288): cwd="[REDACTED_PATH]"
+type=EXECVE msg=audit(1774322303.867:288): argc=3 a0="sudo" a1="ls" a2="/root"
+type=SYSCALL msg=audit(1774322303.867:288): arch=c000003e syscall=59 success=yes exit=0 a0=5d7e76794350 a1=5d7e768cf7f0 a2=5d7e7686ff70 a3=5d7e7688efc0 items=2 ppid=1549260 pid=1830555 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=1 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="sudo_usage"
+----
+time->Mon Mar 23 22:18:31 2026
+type=PROCTITLE msg=audit(1774322311.017:295): proctitle=7375646F006175736561726368002D6B007375646F5F7573616765
+type=PATH msg=audit(1774322311.017:295): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=11800659 dev=08:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1774322311.017:295): item=0 name="/usr/bin/sudo" inode=11801097 dev=08:02 mode=0104755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1774322311.017:295): cwd="[REDACTED_PATH]"
+type=EXECVE msg=audit(1774322311.017:295): argc=4 a0="sudo" a1="ausearch" a2="-k" a3="sudo_usage"
+type=SYSCALL msg=audit(1774322311.017:295): arch=c000003e syscall=59 success=yes exit=0 a0=5d7e7688eec0 a1=5d7e768cf890 a2=5d7e7686ff70 a3=5d7e768cf890 items=2 ppid=1549260 pid=1830850 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=1 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="sudo_usage"
+----
+time->Mon Mar 23 22:19:13 2026
+type=PROCTITLE msg=audit(1774322353.832:302): proctitle=7375646F006175736561726368002D6B007375646F5F7573616765
+type=PATH msg=audit(1774322353.832:302): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=11800659 dev=08:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1774322353.832:302): item=0 name="/usr/bin/sudo" inode=11801097 dev=08:02 mode=0104755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1774322353.832:302): cwd="[REDACTED_PATH]"
+type=EXECVE msg=audit(1774322353.832:302): argc=4 a0="sudo" a1="ausearch" a2="-k" a3="sudo_usage"
+type=SYSCALL msg=audit(1774322353.832:302): arch=c000003e syscall=59 success=yes exit=0 a0=5d7e7688ede0 a1=5d7e7688e0e0 a2=5d7e7686ff70 a3=5d7e76794370 items=2 ppid=1549260 pid=1832648 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=1 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="sudo_usage"

@@ -1,0 +1,37 @@
+Linux Security Controls Implemented
+
+Firewall:
+
+UFW enabled
+Default deny inbound policy
+SSH explicitly allowed
+
+Intrusion Prevention:
+
+Fail2ban configured for SSH brute-force protection
+Ban behavior validated through simulated failed login attempts
+
+Access Control:
+
+SSH configuration reviewed
+Root login restrictions verified
+Authentication attempt limits and idle session timeout configured
+
+Auditing:
+
+auditd configured to monitor:
+user account changes
+privilege escalation
+authentication log changes
+Audit rules persisted and verified
+
+System Hardening:
+
+Running services inventoried
+Open ports documented and reviewed
+Package update status reviewed
+Security services configured to start automatically
+
+Operational Decision:
+
+File integrity monitoring with AIDE evaluated but not deployed due to impracticality on a daily-use desktop system

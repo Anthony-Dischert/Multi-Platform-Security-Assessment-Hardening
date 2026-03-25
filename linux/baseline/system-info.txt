@@ -1,0 +1,13 @@
+ Static hostname: [REDACTED_HOSTNAME]
+       Icon name: computer-desktop
+         Chassis: desktop 🖥️
+      Machine ID: 30f71d4ffcf4459b9f5f073c257cc71c
+         Boot ID: 4eb098177da2442e97b2e95d7d3c38f0
+Operating System: Linux Mint 22.1
+          Kernel: Linux 6.8.0-63-generic
+    Architecture: x86-64
+ Hardware Vendor: ASUSTeK COMPUTER INC.
+  Hardware Model: PRIME H310-PLUS
+Firmware Version: 0402
+   Firmware Date: Mon 2018-03-19
+    Firmware Age: 8y 5d

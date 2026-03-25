@@ -1,0 +1,44 @@
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  apache2.service               loaded active running The Apache HTTP Server
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  fwupd.service                 loaded active running Firmware update daemon
+  getty@tty1.service            loaded active running Getty on tty1
+  irqbalance.service            loaded active running irqbalance daemon
+  kerneloops.service            loaded active running Tool to automatically collect and submit kernel crash signatures
+  lightdm.service               loaded active running Light Display Manager
+  ModemManager.service          loaded active running Modem Manager
+  mullvad-daemon.service        loaded active running Mullvad VPN daemon
+  NetworkManager.service        loaded active running Network Manager
+  nvidia-persistenced.service   loaded active running NVIDIA Persistence Daemon
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  snapd.service                 loaded active running Snap Daemon
+  ssh.service                   loaded active running OpenBSD Secure Shell server
+  switcheroo-control.service    loaded active running Switcheroo Control Proxy service
+  systemd-hostnamed.service     loaded active running Hostname Service
+  systemd-journald.service      loaded active running Journal Service
+  systemd-logind.service        loaded active running User Login Management
+  systemd-resolved.service      loaded active running Network Name Resolution
+  systemd-timesyncd.service     loaded active running Network Time Synchronization
+  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
+  tailscaled.service            loaded active running Tailscale node agent
+  thermald.service              loaded active running Thermal Daemon Service
+  touchegg.service              loaded active running Touchégg Daemon
+  udisks2.service               loaded active running Disk Manager
+  upower.service                loaded active running Daemon for power management
+  user@1000.service             loaded active running User Manager for UID 1000
+  wpa_supplicant.service        loaded active running WPA supplicant
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+37 loaded units listed.
