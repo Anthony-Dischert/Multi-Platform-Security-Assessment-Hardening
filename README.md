@@ -21,7 +21,7 @@ The work focuses on realistic endpoint hardening for personal daily-use systems 
 - `linux/`
   - `README.md`
   - `baseline/`
-  - `hardening/`
+  - `hardening/` *(omitted from the public version; see Privacy Note)*
   - `validation/`
 - `windows/`
   - `README.md`
